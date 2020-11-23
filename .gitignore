@@ -38,4 +38,5 @@ ehthumbs.db
 Thumbs.db
 
 src/build
-src/Main
+src/Bench
+src/Test

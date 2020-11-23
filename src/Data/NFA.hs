@@ -123,3 +123,7 @@ hasFinal set = go $ Set.toList set
 
 match :: NFA -> String -> Bool
 match nfa syms = hasFinal $ run syms nfa
+
+
+matchRe :: Regex -> String -> Bool
+matchRe = match . fromRegex

@@ -79,3 +79,7 @@ match :: DFA -> String -> Bool
 match dfa syms = case run syms dfa of
     Just dfa -> hasFinal dfa
     Nothing  -> False
+
+
+matchRe :: Regex -> String -> Bool
+matchRe = match . fromRegex
