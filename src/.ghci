@@ -1,0 +1,4 @@
+:set prompt "\ESC[35m\STXλ=\ESC[m\STX "
+
+-- Better errors
+:set -ferror-spans -freverse-errors -fprint-expanded-synonyms
